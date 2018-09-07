@@ -3,7 +3,8 @@
 }
 
 body{
-    margin: 0;
+    justify-content: center;
+    margin: 0 15em;
 }
 
 p{
@@ -22,6 +23,8 @@ p{
 
 .iconos{
     grid-column: 2;
+
+    
 }
 
 .hr1{
@@ -55,8 +58,14 @@ p{
 }
 
 .image{
+    margin-left: 2em;
     grid-column: 2;
     grid-row: 1;
+    margin-bottom: 2em;
+}
+
+img{
+    border-radius: 10px;
 }
 
 .learn{
