@@ -43,6 +43,9 @@ p{
     border-color: #f56a6a;
     color: #f56a6a;
     border-style: solid;
+    width: 6em;
+    margin: 1em 0;
+
 }
 
 
@@ -103,8 +106,11 @@ img{
 
 .far,.fas{
     color: #f56a6a;
+    font-size: 3em;
 }
 
 .fab{
     color: #7f888f;
+    align-content: space-around;
+    font-size: 1em;
 }
