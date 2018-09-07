@@ -1,0 +1,101 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+p{
+   color: #7f888f;   
+}
+
+.top{
+    display: grid;
+    grid-auto-columns: 50%;
+    grid-auto-rows: 50%;
+}
+
+.titulo{
+    grid-column: 1;
+}
+
+.iconos{
+    grid-column: 2;
+}
+
+.hr1{
+    border-color: #f56a6a;
+    color: #f56a6a;
+    border-style: solid;
+}
+
+.hr2{
+    border-color:#7f888f;
+    color: #7f888f;
+    border-style: solid;
+}
+
+.hr3{
+    border-color: #f56a6a;
+    color: #f56a6a;
+    border-style: solid;
+}
+
+
+.middle{
+    display: grid;
+    grid-auto-columns: 50%;
+    grid-auto-rows: 50%;
+}
+
+.principal{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.image{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.learn{
+    border-color: #f56a6a;
+    color: #f56a6a;
+    background: 0;
+    border-radius: 1em;
+    padding: 1em 4em;
+    border-style: solid;
+}
+
+
+.bot{
+    display: grid;
+    grid-auto-columns: 50%;
+    grid-auto-rows: 50%;
+}
+
+.diamond{
+    grid-column: 1;
+    grid-row: 1;
+}
+.rocket{
+    grid-column: 1;
+    grid-row: 2;
+}
+.plane{
+    grid-column: 2;
+    grid-row: 1;
+}
+.signal{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.far,.fas{
+    color: #f56a6a;
+}
+
+.fab{
+    color: #7f888f;
+}
